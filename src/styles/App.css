@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 25rem;
+
+
+    background-image: url("./images/bluewood.jpeg");
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+img {
+    border:solid 2px rgb(207,226,255);
+    border-radius: 10%;
+    }
+
+img:hover {
+    cursor: pointer;
+    transition:3s;
+    transform:  scale(0.5);
+    opacity: 0.7;
+}
+
+
+h1 {
+    color: white;
+    font-style: italic;
+   
+}
+
+table {
+box-shadow: 0 0 4px 4px cyan;
+}
+
+button:hover {
+    box-shadow: 0 0 2px 2px rgb(0, 0, 255)
+}
+
